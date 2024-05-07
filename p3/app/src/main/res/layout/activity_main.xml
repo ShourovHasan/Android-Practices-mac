@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur_background"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="30"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_weight="10"
+            >
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_weight="10"
+            >
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_weight="10"
+            >
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#fff"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:weightSum="90"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        >-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button4"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Button"-->
+<!--            android:layout_weight="30"-->
+<!--            />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="This is long Button"-->
+<!--            android:layout_weight="30"-->
+<!--            />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button2"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="30"-->
+<!--            android:text="Button" />-->
+<!--    </LinearLayout>-->
+    <!--<TextView-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:text="Beauty of Bangladesh"-->
+    <!--    android:textSize="35sp"-->
+    <!--    android:textColor="#ffffff"-->
+    <!--    android:gravity="center"-->
+    <!--    android:background="#000000"-->
+    <!--    />-->
+    <!--    <ImageView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="200dp"-->
+    <!--        android:src="@drawable/cover"-->
+    <!--        android:scaleType="centerCrop"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textSize="18dp"-->
+    <!--        android:text="Bangladesh \n has a land of enormous natural beauty, hundreds of rivers, crystal clear water, lakes surrounded by green hills, tropical rain forests, world's largest mangrove forest, home of the Royal Bengal Tiger and the wild lives."-->
+    <!--        android:textColor="#ffffff"-->
+    <!--        android:gravity="left"-->
+    <!--        android:paddingBottom="10dp"-->
+    <!--        android:background="#153321"-->
+    <!--        android:padding="10dp"-->
+    <!--        />-->
+    <!--    <Button-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Click here to know more"-->
+    <!--        />-->
+</LinearLayout>

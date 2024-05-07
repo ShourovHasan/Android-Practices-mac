@@ -1,0 +1,10 @@
+buildscript {
+    repositories {
+        // These are only for the plugins needed in the buildscript block
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.2.0'
+    }
+}
